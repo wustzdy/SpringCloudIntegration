@@ -9,6 +9,9 @@
     <version>0.0.1-SNAPSHOT</version>
     <modules>
         <module>SpringCloudConfig</module>
+        <module>SpringCloudEureka</module>
+        <module>SpringCloudGateWay</module>
+        <module>SpringCloudServiceA</module>
     </modules>
     <name>spring-cloud-integration</name>
     <description>Demo project for Spring Cloud Integration</description>
