@@ -10,6 +10,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>SpringCloudConfig</artifactId>
+    <groupId>com.wustzdy.spring.cloud.config</groupId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <modules>
+        <module>springcloud-config-client</module>
+        <module>springcloud-config-eureka</module>
+        <module>springcloud-config-server</module>
+    </modules>
 
     <dependencies>
         <dependency>
