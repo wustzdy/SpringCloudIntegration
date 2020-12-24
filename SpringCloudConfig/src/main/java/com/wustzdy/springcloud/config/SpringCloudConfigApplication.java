@@ -16,3 +16,4 @@ public class SpringCloudConfigApplication {
 //https://www.cnblogs.com/fengzheng/p/11242128.html
 //https://blog.csdn.net/wqr503/article/details/104049125
 //https://codechina.csdn.net/mirrors/xuwujing/springcloud-study?utm_source=csdn_github_accelerator
+//https://blog.csdn.net/qazwsxpcm/article/details/88578076
