@@ -1,0 +1,7 @@
+data:
+  env: config-eureka
+  user:
+    username: eureka-server-user-master
+    password: 88888888
+
+word: HelloWord
