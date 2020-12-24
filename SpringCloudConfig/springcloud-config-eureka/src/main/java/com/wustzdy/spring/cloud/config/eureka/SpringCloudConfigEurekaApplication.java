@@ -9,7 +9,7 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
  * @Title: SpringCloudConfigEurekaApplication
  * @Description: springcloud服务入口
  * EnableEurekaServer 注解启动一个服务注册中心
- * @Version:1.0.0
+ * @Version:1.0.0 启动eureka:http://localhost:8000/
  */
 @SpringBootApplication
 @EnableEurekaServer
