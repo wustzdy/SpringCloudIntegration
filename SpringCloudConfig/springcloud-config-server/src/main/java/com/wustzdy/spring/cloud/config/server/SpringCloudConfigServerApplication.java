@@ -11,7 +11,7 @@ import org.springframework.cloud.config.server.EnableConfigServer;
  * @Description: 程序入口
  * EnableDiscoveryClient: 启用服务注册与发现
  * EnableConfigServer:    启用config配置中心
- * @Version:1.0.0
+ * @Version:1.0.0 http://localhost:9005/configtest-dev.properties
  */
 @EnableDiscoveryClient
 @EnableConfigServer
