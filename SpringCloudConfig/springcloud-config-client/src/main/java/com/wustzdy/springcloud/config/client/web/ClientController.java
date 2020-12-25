@@ -17,11 +17,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ClientController {
 
-    @Value("${word}")
-    private String word;
+    @Value("${university}")
+    private String university;
 
     @RequestMapping("/hello")
     public String index(@RequestParam String name) {
-        return name + "," + this.word;
+        return name + "@" + this.university;
     }
 }
