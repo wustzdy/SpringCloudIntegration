@@ -8,6 +8,7 @@ import org.springframework.cloud.gateway.route.RouteLocator;
 import org.springframework.cloud.gateway.route.builder.RouteLocatorBuilder;
 import org.springframework.context.annotation.Bean;
 
+@EnableDiscoveryClient
 @SpringBootApplication
 public class SpringCloudGateWayApplication {
     @Value("${test.uri}")
@@ -23,7 +24,7 @@ public class SpringCloudGateWayApplication {
                 .route(r -> r.path("/user/**")
                         .filters(f -> f
                                 .hystrix(config -> config
-                                        .setName("myserviceOne")
+                                        .setName("myserviceA")
                                         .setFallbackUri("forward:/user/fallback")))
                         .uri(uri)).build();
     }

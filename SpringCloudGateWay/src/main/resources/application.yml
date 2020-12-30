@@ -1,5 +1,5 @@
 test:
-  uri: lb://service-one
+  uri: lb://service-A
 
 spring:
   application:
@@ -8,10 +8,10 @@ spring:
     gateway:
       routes:
         #      - id: route_service_one
-        #        uri: http://localhost:8081
+        #        uri: http://localhost:8082
         #        predicates:
         #        - Path=/user/who
-        - id: route_service_one
+        - id: route_service_A
           uri: ${test.uri} # uri以lb://开头（lb代表从注册中心获取服务），后面接的就是你需要转发到的服务名称
           predicates:
             - Path=/userapi/**
@@ -31,7 +31,7 @@ spring:
 
 
 server:
-  port: 8080
+  port: 8083
 
 logging:
   level:
