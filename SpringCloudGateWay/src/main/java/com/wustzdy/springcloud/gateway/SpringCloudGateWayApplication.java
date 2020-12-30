@@ -33,3 +33,6 @@ public class SpringCloudGateWayApplication {
         SpringApplication.run(SpringCloudGateWayApplication.class, args);
     }
 }
+
+//上面的代码里是在访问http://localhost:8080/order/**的时候，网关转发到http://service-one:8081/order/**，
+// service-one服务在eureka中有注册，最终是对应服务的ip:port
