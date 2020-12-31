@@ -3,13 +3,22 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>SpringCloudFeign</artifactId>
-        <groupId>com.wustzdy.spring.cloud.feign</groupId>
+        <artifactId>springCloudParent</artifactId>
+        <groupId>com.wustzdy.spring.cloud.parent</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>Service-Eureka</artifactId>
+    <groupId>com.wustzdy.spring.cloud.service.eureka</groupId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>jar</packaging>
+    <name>springCloudServiceEureka</name>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+        </dependency>
+    </dependencies>
 </project>

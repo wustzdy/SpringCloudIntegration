@@ -15,10 +15,11 @@
         <module>Service-Hello</module>
         <module>Service-Eureka</module>
         <module>Parent</module>
+        <module>Service-Ribbon</module>
     </modules>
     <groupId>com.wustzdy.spring.cloud.feign</groupId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>pom</packaging>
+    <packaging>jar</packaging>
     <name>springCloudFeign</name>
 
     <properties>
