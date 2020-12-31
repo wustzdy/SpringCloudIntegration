@@ -14,12 +14,10 @@ public class UserController implements HelloServiceFeign {
     @Autowired
     private UserService userService;
 
-
     @RequestMapping(value = "/client/postPerson", method = RequestMethod.POST, produces = "application/json; charset=UTF-8")
     public Person postPerson(String name) {
         return userService.postPerson(name);
     }
-
 
     @RequestMapping(value = "/client/getHost", method = RequestMethod.GET)
     public String getHost(String name) {
