@@ -16,12 +16,12 @@
         <version>2.1.3.RELEASE</version>
         <relativePath/>
     </parent>
-    <modules>
+<!--    <modules>
         <module>Service-Feign</module>
         <module>Service-Hello</module>
         <module>Service-Eureka</module>
         <module>Service-Ribbon</module>
-    </modules>
+    </modules>-->
 
 
     <properties>
